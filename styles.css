@@ -1,0 +1,154 @@
+:root {
+    --corPrincipal: #FFFFFF;
+    --corSecundaria: #C0C0C0;
+    --corBotao: #167BF7;
+    --corFundo: #00030C;
+    --fontePrincipal: 'Inter';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: var(--corFundo);
+    color: var(--corPrincipal);
+    font-family: var(--fontePrincipal);
+    font-weight: 400px;
+}
+
+
+.caixa_principal{
+    margin: 0 6em;
+}
+
+
+.principal{
+    background-image: url(assets/ImagemPrincipal.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo_principal{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.imagem_principal{
+    margin: 1em 0 2em 0;
+}
+
+.botao_principal{
+    background-color: var(--corBotao);
+    border-radius: 8px;
+    padding: 1rem;
+    color: var(--corPrincipal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.botao_secundario{
+    background-color: transparent;
+    border: 2px solid var(--corPrincipal);
+}
+.aviso_principal{
+    font-size: 12px;
+    color: var(--corSecundaria);
+}
+
+.container{
+   height: 100vh;
+   display: grid;
+   grid-template-columns: 50% 50%;
+}
+
+.imagem_secundario{
+    width: 31.12rem;
+}
+
+.secundario{
+    align-items: center;
+    margin: 0 20em;
+}
+.descricao_secundario_titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--corPrincipal);
+    margin-bottom: 0.1em;
+
+}
+
+.descricao_secundario_paragrafo{
+    color: var(--corSecundaria);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.botao_secundario_secundario{
+    display: inline-block;
+    margin-top: 1em;
+}
+
+
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos_titulo{
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--corPrincipal);
+}
+
+.dispositivos_lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 4em 0;
+}
+
+.dispositivos_lista_item{
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--corPrincipal);
+}
+
+
+.rodape{
+    text-align: center;
+    margin-top: 10em;
+}
+
+.rodape_lista {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 4em 14em;
+    
+}
+
+.rodape_lista_link  a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--corPrincipal);
+}
+
+
+.rodape_lista_link  a:hover{
+    color: var(--corBotao);
+}
+
+.rodape_paragrafo{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--corSecundaria);
+    margin-bottom: 2em;
+}
+
+
